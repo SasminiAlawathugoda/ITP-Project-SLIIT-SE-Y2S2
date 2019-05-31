@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B46CF5E-442E-4AFD-BC8D-401A1C031E58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HWMS</RootNamespace>
+    <AssemblyName>HWMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bill.cs" />
+    <Compile Include="customerOrder.cs" />
+    <Compile Include="CustomerOrderFullReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerOrderFullReport.Designer.cs">
+      <DependentUpon>CustomerOrderFullReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerOrderIDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerOrderIDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CashierMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierMenu.Designer.cs">
+      <DependentUpon>CashierMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerOrderReport.Designer.cs">
+      <DependentUpon>CustomerOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HWMSNDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HWMSNDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs" />
+    <Compile Include="permanentCustomerDrop.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>permanentCustomerDrop.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="supplierOrder.cs" />
+    <Compile Include="SupplierOrderFullReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierOrderFullReport.Designer.cs">
+      <DependentUpon>SupplierOrderFullReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierOrderReport.Designer.cs">
+      <DependentUpon>SupplierOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TempBill.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TempBill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TempBillDisplya.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TempBillDisplya.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TEMPTABLEBILL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TEMPTABLEBILL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrashcustomerO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrashcustomerO.Designer.cs">
+      <DependentUpon>TrashcustomerO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomerOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomerOrder.Designer.cs">
+      <DependentUpon>UpdateCustomerOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSupplierOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSupplierOrder.Designer.cs">
+      <DependentUpon>UpdateSupplierOrder.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CashierMenu.resx">
+      <DependentUpon>CashierMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerOrderFullReport.resx">
+      <DependentUpon>CustomerOrderFullReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerOrderReport.resx">
+      <DependentUpon>CustomerOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="SupplierOrderFullReport.resx">
+      <DependentUpon>SupplierOrderFullReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierOrderReport.resx">
+      <DependentUpon>SupplierOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrashcustomerO.resx">
+      <DependentUpon>TrashcustomerO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomerOrder.resx">
+      <DependentUpon>UpdateCustomerOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSupplierOrder.resx">
+      <DependentUpon>UpdateSupplierOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CustomerOrderIDS.xsc">
+      <DependentUpon>CustomerOrderIDS.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerOrderIDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerOrderIDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerOrderIDS.xss">
+      <DependentUpon>CustomerOrderIDS.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet.xsc">
+      <DependentUpon>HWMSNDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet.xss">
+      <DependentUpon>HWMSNDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet1.xsc">
+      <DependentUpon>HWMSNDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet1.xss">
+      <DependentUpon>HWMSNDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet10.xsc">
+      <DependentUpon>HWMSNDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet10.xss">
+      <DependentUpon>HWMSNDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet11.xsc">
+      <DependentUpon>HWMSNDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet11.xss">
+      <DependentUpon>HWMSNDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet12.xsc">
+      <DependentUpon>HWMSNDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet12.xss">
+      <DependentUpon>HWMSNDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet13.xsc">
+      <DependentUpon>HWMSNDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet13.xss">
+      <DependentUpon>HWMSNDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet14.xsc">
+      <DependentUpon>HWMSNDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet14.xss">
+      <DependentUpon>HWMSNDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet15.xsc">
+      <DependentUpon>HWMSNDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet15.xss">
+      <DependentUpon>HWMSNDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet16.xsc">
+      <DependentUpon>HWMSNDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet16.xss">
+      <DependentUpon>HWMSNDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet17.xsc">
+      <DependentUpon>HWMSNDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet17.xss">
+      <DependentUpon>HWMSNDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet2.xsc">
+      <DependentUpon>HWMSNDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet2.xss">
+      <DependentUpon>HWMSNDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet3.xsc">
+      <DependentUpon>HWMSNDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet3.xss">
+      <DependentUpon>HWMSNDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet4.xsc">
+      <DependentUpon>HWMSNDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet4.xss">
+      <DependentUpon>HWMSNDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet5.xsc">
+      <DependentUpon>HWMSNDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet5.xss">
+      <DependentUpon>HWMSNDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet6.xsc">
+      <DependentUpon>HWMSNDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet6.xss">
+      <DependentUpon>HWMSNDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet7.xsc">
+      <DependentUpon>HWMSNDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet7.xss">
+      <DependentUpon>HWMSNDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet8.xsc">
+      <DependentUpon>HWMSNDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet8.xss">
+      <DependentUpon>HWMSNDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet9.xsc">
+      <DependentUpon>HWMSNDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HWMSNDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HWMSNDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HWMSNDataSet9.xss">
+      <DependentUpon>HWMSNDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="permanentCustomerDrop.xsc">
+      <DependentUpon>permanentCustomerDrop.xsd</DependentUpon>
+    </None>
+    <None Include="permanentCustomerDrop.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>permanentCustomerDrop.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="permanentCustomerDrop.xss">
+      <DependentUpon>permanentCustomerDrop.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TempBill.xsc">
+      <DependentUpon>TempBill.xsd</DependentUpon>
+    </None>
+    <None Include="TempBill.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TempBill.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TempBill.xss">
+      <DependentUpon>TempBill.xsd</DependentUpon>
+    </None>
+    <None Include="TempBillDisplya.xsc">
+      <DependentUpon>TempBillDisplya.xsd</DependentUpon>
+    </None>
+    <None Include="TempBillDisplya.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TempBillDisplya.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TempBillDisplya.xss">
+      <DependentUpon>TempBillDisplya.xsd</DependentUpon>
+    </None>
+    <None Include="TEMPTABLEBILL.xsc">
+      <DependentUpon>TEMPTABLEBILL.xsd</DependentUpon>
+    </None>
+    <None Include="TEMPTABLEBILL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TEMPTABLEBILL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TEMPTABLEBILL.xss">
+      <DependentUpon>TEMPTABLEBILL.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

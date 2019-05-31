@@ -1,0 +1,89 @@
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\bin\Debug\HWMS.exe.config
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\bin\Debug\HWMS.exe
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\bin\Debug\HWMS.pdb
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.csprojResolveAssemblyReference.cache
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Form2.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Form3.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Form4.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Form5.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Form6.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Form7.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.Properties.Resources.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.csproj.GenerateResource.Cache
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.exe
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.pdb
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.CashierMenu.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.TrashcustomerO.resources
+C:\Users\Sasmini\Documents\SLIIT DOCUMENTS\SLIIT SE DEGREE\Year 2(2018)\SLIIT IT Y2 S2 Notes(2018)\ITP\ITPproject\HWMS\HWMS\obj\Debug\HWMS.UpdateCustomerOrder.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\HWMS.exe.config
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.exe
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.pdb
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\HWMS.exe
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\HWMS.pdb
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.csprojResolveAssemblyReference.cache
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.CashierMenu.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form2.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form3.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form4.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form5.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form6.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form7.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Properties.Resources.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.TrashcustomerO.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.UpdateCustomerOrder.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.csproj.GenerateResource.Cache
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.CustomerOrderReport.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\RdlCompile.cache
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\RdlCompile.compiled
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.CustomerOrderFullReport.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.SupplierOrderReport.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.SupplierOrderFullReport.resources
+C:\Users\Sasmini\Desktop\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.UpdateSupplierOrder.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\HWMS.exe.config
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.exe
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.pdb
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\HWMS.exe
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\HWMS.pdb
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.csprojResolveAssemblyReference.cache
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.CashierMenu.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.CustomerOrderFullReport.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.CustomerOrderReport.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form2.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form3.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form4.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form5.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form6.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Form7.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.Properties.Resources.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.SupplierOrderFullReport.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.SupplierOrderReport.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.TrashcustomerO.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.UpdateCustomerOrder.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.UpdateSupplierOrder.resources
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\HWMS.csproj.GenerateResource.Cache
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\RdlCompile.cache
+C:\Users\Sasmini\Desktop\ITPNEWNEWNEW\ITP_Project(Order Sas)\HWMS\HWMS\obj\Debug\RdlCompile.compiled
