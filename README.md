@@ -1,4 +1,4 @@
-SLIIT Software Engineering ( Year 2 , Semester 2 )
+# SLIIT Software Engineering ( Year 2 , Semester 2 )
 
 Project Name - Hardware Store Management System (Stand-alone system)
 
